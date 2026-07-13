@@ -115,7 +115,7 @@ Graph node status to DAMAGED via voice command alone.
 📽️ Demo & Deliverables
 
   - Demo Video Link (Mandatory): [Paste YouTube/Drive link here]
-  - Deployment Link: [Paste Vercel link if hosted, else N/A]
+  - Deployment Link: https://med-guard.vercel.app/
   - GitHub Repository:  https://github.com/prathamjain27106-ux/MedGuard.git
 
 ✅ Tasks & Bonus Checklist
