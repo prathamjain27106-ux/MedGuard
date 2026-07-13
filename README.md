@@ -1,3 +1,4 @@
+<img width="4320" height="1440" alt="hh26 main poster 2 with sponsors 3x1 (4320 x 1440 px) (2)" src="https://github.com/user-attachments/assets/c698b2cd-da84-4cb0-9276-125c6a7244aa" />
 🛡️ MedGuard: The Anti-Counterfeit Pharmaceutical Grid
 
 Securing the pharmaceutical supply chain using Graph-based digital threads and
