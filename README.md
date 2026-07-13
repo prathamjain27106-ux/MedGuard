@@ -114,51 +114,53 @@ Graph node status to DAMAGED via voice command alone.
 
 📽️ Demo & Deliverables
 
-  - Demo Video Link (Mandatory): [Paste YouTube/Drive link here]
+  - Demo Video Link (Mandatory):
+    https://drive.google.com/file/d/1crh6aDv7iN9aGA91IPfceFGbRYi0zeQv/view?usp=sharing
   - Deployment Link: https://med-guard.vercel.app/
-  - GitHub Repository:  https://github.com/prathamjain27106-ux/MedGuard.git
+  - GitHub Repository: https://github.com/prathamjain27106-ux/MedGuard.git
 
 ✅ Tasks & Bonus Checklist
 
 - [x] All team members completed the mandatory social task
-- [ ] Bonus Task 1 – Badge sharing: [Link to LinkedIn Post]
-- [ ] Bonus Task 2 – Blog/article: [Link to Medium/Dev.to]
+- [x] Bonus Task 1 – Badge sharing: • Pratham Jain
+  [https://www.linkedin.com/posts/pratham-jain5153ab37b_hackhazards-hydrosync-civictech-share-7475100226089926656-dMG6/]
+  • Parth Rajpal
+  [https://www.linkedin.com/posts/parth-rajpal-_hackhazards2026-namespace-fatalerror-share-7475100639081984000-2us5/]
+  • Pradumn Mishra
+  [https://www.linkedin.com/posts/pradumn-mishra-84683437b_hackhazards-hackhazards-hydrosync-share-7477415841869950976-2otY/]
+- [x] Bonus Task 2 – Blog/article:
+  https://dev.to/pratham_jain_8856a94b47dd/how-we-built-a-graph-powered-voice-ai-pharmaceutical-tracker-for-hackhazards-26-oha
+  🧪 How to Run the Project Locally
 
-🧪 How to Run the Project Locally
-
-1. Requirements
+1.  Requirements
 
   - Node.js v18+ & npm
   - Expo Go app installed on an Android/iOS test device
   - Active Neo4j AuraDB Instance
   - Sarvam AI & Google Gemini API Keys
 
-2. Environment Setup
+2.  Environment Setup
 
 Create a .env.local file inside the backend directory:
 
-NEO4J_URI=neo4j+s://<YOUR_DB_ID>.databases.neo4j.io
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=<YOUR_PASSWORD>
-SARVAM_API_KEY=<YOUR_SARVAM_KEY>
+NEO4J_URI=neo4j+s://<YOUR_DB_ID>.databases.neo4j.io NEO4J_USER=neo4j
+NEO4J_PASSWORD=<YOUR_PASSWORD> SARVAM_API_KEY=<YOUR_SARVAM_KEY>
 GOOGLE_GENERATIVE_AI_API_KEY=<YOUR_GEMINI_KEY>
 
-3. Running the System (Requires Split Terminal)
+3.  Running the System (Requires Split Terminal)
 
 Terminal 1: Start the Backend & Dashboard
 
-cd backend
-npm install
-npm run dev
-# Dashboard runs on http://localhost:3000
+cd backend npm install npm run dev
+
+Dashboard runs on http://localhost:3000
 
 Terminal 2: Start the Expo Mobile Scanner Note: Ensure you update BACKEND_URL in
 App.tsx to your machine's local IPv4 address before starting.
 
-cd mobile
-npm install
-npx expo start -c
-# Scan the generated QR code using Expo Go on your smartphone.
+cd mobile npm install npx expo start -c
+
+Scan the generated QR code using Expo Go on your smartphone.
 
 🧬 Future Scope
 
